@@ -1,8 +1,7 @@
 ##README
 
 
-testing changes from sophie
-
+CHANGED IT FOR THE BETTER
 
 Web application:
 World Lens - What news is currently most important in a particular region?
