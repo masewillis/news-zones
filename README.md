@@ -1,8 +1,5 @@
 ##README
 
-hey sophie
-checking to see if the commit is working
-
 Web application:
 World Lens - What news is currently most important in a particular region?
 
@@ -12,7 +9,7 @@ Technologies used for this project:
 
 Git  1.9.2
 
-Ruby 1.9.3 
+Ruby 1.9.3
 
 PostgreSQL 9.3.4
 
