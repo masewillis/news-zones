@@ -1,6 +1,7 @@
 ##README
 
 hey sophie
+checking to see if the commit is working
 
 Web application:
 World Lens - What news is currently most important in a particular region?
