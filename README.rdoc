@@ -1,5 +1,7 @@
 test from mason tang
 
+Hey Mason its Chris. We're waiting for you David :)
+
 == README
 
 This README would normally document whatever steps are necessary to get the
