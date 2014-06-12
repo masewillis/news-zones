@@ -5,7 +5,7 @@
 Web application:
 World Lens - What news is currently most important in a particular region?
 
-Every country and culture has its own unique perspective of the world. What are the most important news subjects in these unique places? Using influential local media sources, we create a customizable visual guide to trending news topics.
+Every country and culture has its own perspective of the world. What are the most important news subjects in these unique places? Using influential local media sources, we create a customizable visual guide to trending news topics.
 
 Technologies used for this project:
 
