@@ -32,3 +32,5 @@ Devise 3.2.4
 <a href="https://github.com/ChrisMLee/news-zones">Github</a>
 
 <a href ="https://trello.com/b/D8gyZaoL/team-american-dream">Trello Project Board</a>
+
+MAKING AN EDIT SOPHIE
