@@ -11,7 +11,7 @@ Resources, research, and documentation links:
 
 - Feedjira for fetching and parsing - http://feedjira.com/
 - Bing Translate for headlines translation - https://github.com/CodeBlock/bing_translator-gem
-- Headlines New York - <a href ="http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"</a>
+- Headlines New York - <a href ="http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml">nytimes</a>
 - Headlines London - <a href="http://www.theguardian.com/uk/rss">the guardian</a>
 - Headlines Tokyo - <a href ="https://english.kyodonews.jp/rss/news.xml">kyodonews</a>
 - Headlines Rio De Janeiro - <a href ="http://www.oglobo.com.br/rss/plantaocidades.xml">o globo</a>
