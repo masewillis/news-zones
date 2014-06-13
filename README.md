@@ -1,24 +1,23 @@
+
 ##README
 
-Web application:
-World Lens - What news is currently most important in a particular region?
+##World Lens - What is currently the most important in a particular region?
 
-Every country and culture has its own perspective of the world. What are the most important news subjects in these unique places? Using influential local media sources, we create a customizable visual guide to trending news topics.
+Every country and culture has its own perspective of the world. What are the most important news subjects in these unique places? Taking the most important local newspapers and trusted web sources, we create a worldwide visual guide of trending topics, user-specific topics and subject categories. This visual guide will provide a cultural comparison tool for those interested in international news headlines.
 
-Technologies used for this project:
+We are using the Rails framework for Ruby and gems, Javascript and its libraries (Jquery, *others), a variety of RSS feeds for local newspapers, a translation service API provided by Bing, and Heroku app hosting services.
 
-Git  1.9.2
+Resources, research, and documentation links:
 
-Ruby 1.9.3
-
-PostgreSQL 9.3.4
-
-
-Rails 4.1.1
-
-Heroku-toolbelt 3.8.3
-
-Devise 3.2.4
+- Feedjira for fetching and parsing - http://feedjira.com/
+- Bing Translate for headlines translation - https://github.com/CodeBlock/bing_translator-gem
+- Headlines New York - <a href ="http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"</a>
+- Headlines London - <a href="http://www.theguardian.com/uk/rss"></a>
+- Headlines Tokyo - <a href ="https://english.kyodonews.jp/rss/news.xml"</a>
+- Headlines Rio De Janiero - <a href ="http://www.oglobo.com.br/rss/plantaocidades.xml"</a>
+- Headlines Istanbul - <a href ="http://www.radikal.com.tr/d/rss/RssSD.xml"</a>
+- Devise 3.2.4
+- Heroku-toolbelt 3.8.3
 
 <a href="https://github.com/CodeBlock/bing_translator-gem">Bing Translate API</a>
 
