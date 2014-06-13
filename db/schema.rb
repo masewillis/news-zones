@@ -11,10 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140613013642) do
+ActiveRecord::Schema.define(version: 20140613014407) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "headlines", force: true do |t|
+    t.string   "en_headline"
+    t.string   "foreign_headline"
+    t.string   "category"
+    t.integer  "place_id"
+    t.string   "timestamp"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "keywords", force: true do |t|
     t.string   "keyword_name"
@@ -22,7 +32,20 @@ ActiveRecord::Schema.define(version: 20140613013642) do
     t.datetime "updated_at"
   end
 
+  create_table "places", force: true do |t|
+    t.string   "place_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "user_keywords", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "user_places", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "place_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
