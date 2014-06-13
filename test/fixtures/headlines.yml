@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  en_headline: MyString
+  foreign_headline: MyString
+  category: MyString
+  place_id: 1
+  timestamp: MyString
+
+two:
+  en_headline: MyString
+  foreign_headline: MyString
+  category: MyString
+  place_id: 1
+  timestamp: MyString
