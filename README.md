@@ -1,6 +1,8 @@
 
 ##README
 
+TEST
+
 ##World Lens - What is currently the most important in a particular region?
 
 Every country and culture has its own perspective of the world. What are the most important news subjects in these unique places? Taking the most important local newspapers and trusted web sources, we create a worldwide visual guide of trending topics, user-specific topics and subject categories. This visual guide will provide a cultural comparison tool for those interested in international news headlines.
