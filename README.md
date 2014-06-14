@@ -1,7 +1,6 @@
 
 ##README
 
-TEST
 
 ##World Lens - What is currently the most important in a particular region?
 
