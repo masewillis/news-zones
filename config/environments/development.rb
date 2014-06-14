@@ -12,7 +12,7 @@ Rails.application.configure do
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
-
+  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.perform_deliveries = true # Set it to false to disable the email in dev mode
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
@@ -26,6 +26,15 @@ Rails.application.configure do
                       :user_name      => "user@gmail.com",
                       :password       => "password"
 }
+
+# config.action_mailer.smtp_settings = {
+# :address              => 'smtp.gmail.com',
+# :port                 => 587,
+# :domain               => 'gmail.com',
+# :user_name            => 'my_name@gmail.com',
+# :password             => 'my_password',
+# :authentication       => 'login'
+# }
 
 
   # Print deprecation notices to the Rails logger.
