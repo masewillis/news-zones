@@ -1,1 +1,7 @@
 <h1>WELCOME TO OUR APP!!!!!</h1>
+
+<%= link_to "create stories", '/welcome' %>
+
+<% @headlines.each do |headline| %>
+  <h1><%= headline.en_headline %></h1>
+<% end %>

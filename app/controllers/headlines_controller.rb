@@ -1,4 +1,5 @@
 class HeadlinesController < ApplicationController
+  include HeadlineProcessing
 
 def index
 
@@ -20,7 +21,7 @@ def create
     @articles = @feed.entries.first(30)
 
     @articles.each do |entry|
-      translator = BingTranslator.new('nz915', '/ruaoL4P7G7++7mr1ffTZvEa1GFq5RsMXFQrJ5ciXNE=')
+      translator = BingTranslator.new(@@client_id, @@client_secret)
 
       if entry.url.include?(publication.publication_name)
         title = translator.detect(entry.title)
