@@ -55,15 +55,8 @@ ActiveRecord::Schema.define(version: 20140614001643) do
   end
 
   create_table "user_keywords", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.integer  "user_id"
     t.integer  "keyword_id"
-  end
-
-  create_table "user_places", force: true do |t|
-    t.integer  "user_id"
-    t.integer  "place_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
